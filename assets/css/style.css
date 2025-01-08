@@ -1,0 +1,458 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* -------------------------------Header----------------------------- */
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: rgb(190, 96, 96);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.stanford-header-logo{
+    height: 6rem;
+}
+.nav-ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 2rem;
+    text-decoration: none;
+    list-style-type: none;
+}
+.nav-li{
+    padding: 1rem;
+    margin: 1rem;
+    border-left: 0.15rem;
+    border-right: 0.15rem;
+    border-bottom: 0.15rem;
+    border-top: 0px;
+    border-color: rgba(163, 29, 29,0) ;
+    border-style: solid;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    text-align: center;
+    /* text-shadow: 0.08rem 0rem; */
+}
+.nav-li:hover{
+    border-color: rgb(163, 29, 29) ;
+    border-style: solid;
+    background-color: rgba(163, 29, 29,0.3);
+    text-shadow: 0.08rem 0rem;
+    cursor: pointer;
+}
+
+
+/* ---------------------------------------Main---------------------------------------------------- */
+.background-image-div{
+/* background-color: aquamarine; */
+position: relative;
+}
+.stanford-background{
+    object-fit: cover;
+    width: 100%;   
+    object-position: center; 
+    height: 80%;
+}
+.stanford-name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: SourceSerif4;
+    color:white;
+    font-size: 9vb;
+    transform: translate(-50%, -50%);
+}
+
+.intro-section{
+    background-color: white;
+    width: 100%;
+    padding: 3rem;
+    
+}
+
+.box{
+    background-color: rgb(254, 249, 225);
+    border-radius: 1.5rem;
+    margin: 6rem;
+    min-height: 40rem;
+    padding: 2rem;
+}
+
+.introHeading {
+    background-color: rgb(254, 249, 225);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.introPara{
+    background-color: rgb(254, 249, 225); 
+    /* max-width: 80%; */
+    line-height: 2;
+    font-weight:500;
+    font-size: 1.4rem;
+    /* overflow: hidden; */
+}
+
+.intro-section-2{
+    background-color:rgb(244, 244, 244);
+    width: 100%;
+    padding: 3rem;
+}
+
+.campus-life-heading{
+    font-size: 6rem;
+}
+
+.campus-life-h4{
+    font-size: 1.8em;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.album{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.album-inner-group{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 3rem; */
+    width: 50%;
+    padding: 1rem;
+}
+.album-img{
+    border: 1em solid maroon;
+    border-radius: 1.5em;
+}
+
+.album-lable{
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+} 
+.much-more-list{
+    padding: 3rem;
+}
+
+.li-class{
+    margin: 0.5em; 
+    background-color: rgb(254, 249, 225);
+}
+.list-class{
+    line-height: 1.2;
+    font-weight: 600; 
+    background-color: rgb(254, 249, 225);
+}
+
+
+.table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2em;
+    width: 100%;
+}
+
+table{
+    width: 80%
+}
+td{
+    background-color: rgb(254, 249, 225);
+    /* border-radius: 2rem; */
+    height: 3rem;
+    width: 9rem;
+    text-align: center;
+    box-shadow: 1px 1px 1px grey;
+    
+}
+th{
+    background-color: rgb(254, 249, 225);
+    /* border-radius: 2rem; */
+    height: 3rem;
+    width: 9rem;
+    text-align: center;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 3em;
+    padding: 3em;
+}
+.media-elements{
+    margin: 4em;
+    height: auto;
+    width: 100%;
+    box-shadow: 0 0 50px 50px rgba(0, 0, 0, 0.5);
+    
+}
+.media-header{
+    font-size: 2.5rem;
+}
+
+.media-audio{
+    border: none; 
+    width: 60%; 
+    height: 3rem; 
+    border-radius: 2rem;
+}
+.box-2{
+    background-color: rgb(254, 249, 225);
+    border-radius: 1.5rem;
+    margin: 6rem;
+    height: 40rem;
+    padding: 2rem;
+    display: flex;
+}
+form{
+    height: 100%;
+    width: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.form-image-div{
+    width: 50%;
+    height: 100%;
+}
+.form-image{
+    width: 100%;
+    height: 100%;
+}
+.form-inner-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.form-inner-div > label{
+    font-size: 2rem;
+}
+.form-inner-div > input {
+    width: 90%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    height: 2rem;
+}
+.form-inner-div > select {
+    width: 90%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    height: 2rem;
+}
+.form-inner-div > textarea {
+    width: 90%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    height: 2rem;
+}
+.btn{
+    background-color: rgb(163, 29, 29);
+    font-size: 2.5rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: white;
+}
+.btn:hover{
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgb(109, 35, 35);
+    cursor: pointer;
+    box-shadow: 0.3rem 0.3rem rgba(0, 0, 0, 0.5);
+    
+}
+textarea{
+    resize: none;
+}
+@media only screen and (max-width: 1150px) {
+    html {
+        scroll-padding-top: 280px; 
+        
+    }
+    .nav-ul{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 1rem;
+    }
+    header{
+        flex-direction: column;
+    }
+    .nav-li{
+        padding: 0rem;
+        margin: 0rem;
+    }
+    .introHeading {
+        font-size: 2.5rem;
+    }
+    .form-image{
+        display: none;
+    }
+    .form-image-div{
+        display: none;
+    }
+    form{
+        width: 100%;
+    }
+}
+
+.footer-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(109, 35, 35);
+
+}
+.footer-logo-div{
+    background-color: rgb(109, 35, 35);
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-right: 1rem; */
+}
+.copyright-div{
+    display: flex;
+    font: 3em;
+    color: white;
+    width: 50%;
+    flex-wrap: wrap;
+}
+.copyright{
+    font-size: 3em;
+    color: white;
+}
+.copy-right-links{
+    font-size: 2rem;
+    color: white;
+    padding: 0.3rem;
+    text-decoration: none;
+}
+.copy-right-links:hover{
+    text-decoration: underline;
+}
+.footer-logo-div>h5{
+    font-size: 2rem;
+    color: white;
+    padding: 1rem;
+}
+.nav-a{
+text-decoration: none;
+color: white;
+}
+@media only screen and (max-width: 550px) {
+
+    .copyright-heading{
+        font-size: 1.5rem;
+        /* padding: 0.6rem; */
+    }
+    .copy-right-links{
+        font-size: 1rem;
+        /* padding: 0.2rem; */
+    }
+    .footer-logo-div>h5{
+        display: none;
+        /* padding: 0.2rem; */
+    }
+}
+@media only screen and (max-width: 380px) {
+    /* .stanford-header-logo{
+        height: 3rem;
+    } */
+    .campus-life-heading{
+        font-size: 0.5rem;
+    }
+    .intro-section{
+        padding: 5px;
+    }
+    .intro-section-2{
+        padding: 5px;
+    }
+    .footer-div{
+        flex-direction: column;
+    }
+    .copyright-div{
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width: 750px) {
+    .album-inner-group{
+        width: 90%;
+    }
+    html {
+        scroll-padding-top: 280px; 
+    
+      }
+    .nav-ul{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 0.5rem;
+        font-size: 0.90rem;
+    }
+    .nav-li{
+        padding: 0rem;
+        margin: 0rem;
+    }
+    header{
+        flex-direction: column;
+    }
+    .box{
+        margin: 0px;
+    }
+    .box-2{
+        margin: 0px;
+    }
+    .introHeading{
+        font-size: 2rem;
+    }
+    .campus-life-heading{
+        font-size: 2.5rem;
+    }
+    .album-lable{
+        font-size:larger ;
+        font-weight: 400;
+    }
+    table{
+        margin: 0em;
+        font-size: 2em;
+    }
+    .media{
+        margin: 0px;
+        padding: 0px;
+        width: 90%;
+    }
+    .footer-div{
+        font-size: 1.5rem;
+    }
+    .footer-logo-div{
+        flex-direction: column;
+    }
+    .copyright{
+        font-size: 1rem;
+    }
+    .table{
+        margin: 0px;
+    }
+}
