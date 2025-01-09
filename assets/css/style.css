@@ -145,6 +145,7 @@ position: relative;
 } 
 .much-more-list{
     padding: 3rem;
+    font-size: 2rem;
 }
 
 .li-class{
@@ -455,4 +456,7 @@ color: white;
     .table{
         margin: 0px;
     }
+        .much-more-list{
+    font-size: 1.3rem;
+}
 }
