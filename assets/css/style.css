@@ -451,6 +451,9 @@ color: white;
         margin: 0em;
         font-size: 1.2em;
     }
+    .stanford-header-logo{
+        height:4rem;
+      }
     .media{
         margin: 0px;
         padding: 0px;
