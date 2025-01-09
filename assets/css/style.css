@@ -405,6 +405,15 @@ color: white;
     .album-inner-group{
         width: 90%;
     }
+          .introPara{
+        font-size: 0.9rem;
+      }
+      .campus-life-h4{
+        font-size: 1rem;
+    }
+    .much-more-list{
+        font-size: 1rem;
+      }
     html {
         scroll-padding-top: 280px; 
     
